@@ -1,8 +1,328 @@
 *, *::after, *::before {
-	box-sizing: border-box;	
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;	
+}
+/* 
+html {
+	height: 100%;
+} */
+
+body {
+	font: 12px/18px Arial, sans-serif;
+	height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+.wrapper {
+	min-width: 320px;
+	max-width: 1920px;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+li{
+	list-style: none;
+	display: flex;
+}
+a {
+	text-decoration: none;
+}
+
+header {
+	background: #000;
+	padding: 22px 0;
+}
+
+.header{
+	width: 100%;
+	margin: 0 auto;
+	display:flex;
+	justify-content: space-between;
+}
+
+.header a {
+	color: #fff;
+	font-size: 16px;
+	margin-right: 63px;
+	padding: 0px 0px;
+	font-weight: bold;
+}
+
+
+
+#menu-checkbox {
+	display: none;
+}
+
+ul {
+	display: flex;
+}
+
+nav {
+	margin-top: 20px;
+	margin-left: 340px;
+}
+
+li a>span {
+	margin-top: 25px;
+	color: #e0c18d;
+	padding-left: 63px;
 
 }
 
-body {
-	background: pink;
+header p {
+	color: #d8b887;
+}
+
+header p > span {
+	color: #fff;
+}
+
+.tel {
+	margin-right: 350px;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.tel img {
+	padding-right: 10px;
+}
+
+.header-container {
+	background: #000;
+	padding-top: 120px;
+	padding-bottom: 280px;
+	margin-top: -1px;
+	display: flex;
+	justify-content: space-between;
+}
+
+h1,h2,h3 {
+	font-family: 'Playfair Display SC', serif;
+	color: #e0c18d;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 30px;
+	text-align: center;
+	color: #000;
+}
+
+
+
+.russ-h1 {
+	color: #fff;
+}
+
+
+.left-logo {
+	margin-left: 343px;
+	
+	
+
+}
+
+.left-logo img {
+	width: 200px;
+	height: 163px;
+}
+
+.left-logo p {
+	font-size: 20px;
+	padding-top: 12px;
+
+}
+
+.right-logo {
+	margin-right: 363px;
+	text-align: center;
+}
+
+.right-logo p {
+	font-size: 20px;
+	padding-top: 29px;
+	color: #fff;
+
+}
+
+button {
+	padding: 16px 39px;
+	border-radius: 40px;
+	margin-top: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.buttons {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.prise-list {
+	background: #fff;
+	color: #000;
+	border: 1px solid #fff;
+	margin-right: 15px;
+}
+
+.record-online {
+	background: #ccb134;
+	color: #fff;
+	border: 1px solid #ccb134;
+	margin-left: 15px;
+}
+
+main {
+	padding-top: 80px;
+}
+
+
+.col-33 {
+	float: left;
+	width: 33.333333%;
+	padding-left: 0px;
+	padding-right: 0px;
+	
+}
+
+.col-66 {
+	float: left;
+	width: 66.666666%;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+
+.line {
+	width: 42px;
+	height: 7px;
+	background: #d8b98a;
+	margin-left: 48%;
+	margin-top: 30px;
+}
+
+.hair {
+	width: 432px;
+	background: #d8b98a;
+	border: 1px solid #d8b98a;
+	padding: 22px 115px 19px 77px;
+	color: #fff;
+	margin-left: 0;
+}
+
+.left-container a  {
+	color: #999999;
+	font-size: 18px;
+	font-weight: bold;
+
+}
+
+.left-container p {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-right: 10px;
+	padding-bottom: 16px;
+	border-bottom: 1px solid #999;
+	width: 432px;
+
+}
+
+.left-container {
+	margin-left: 159px;
+}
+
+.first-line p {
+	margin-left: 30px;
+
+}
+
+.first-line img {
+	width: 30px;
+	height: 40px;
+
+}
+
+.left-side img {
+	padding-right: 10px;
+	float: left;
+	
+}
+
+.left-side span {
+	color: #e0c18d;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.text-poem {
+	width: 356px;
+	float:right;
+	margin-right: 377px;
+	margin-left: -111px;
+}
+
+.main-section {
+	
+	display: flex;
+	justify-content: space-between;
+
+}
+
+
+.top-section {
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.bottom-section {
+	width: 1250px;
+	margin-top: 40px;
+	margin-left: 157px;
+	 display: flex;
+	justify-content: space-between; 
+	
+}
+
+.about-salon {
+	width: 432px;	
+}
+
+.about-salon p {
+	border-bottom: none;
+	text-align: left;
+	
+}
+
+.bottom-section h3 {
+	text-align: left;
+}
+
+.bottom-left>.line {
+	margin-left: 0;
+	margin-bottom: 30px;
+
+}
+
+.main-carousel {
+	margin-right: 200px;
+	margin-top: 200px;
 }
