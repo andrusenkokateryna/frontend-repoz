@@ -73,7 +73,7 @@ li a>span .section-services p>span {
 
 }
 
-header a>span {
+header a>span,.contacts-block-map>p>span {
 	color: #d8b887;
 	padding-left: 60px;
 	}
@@ -111,7 +111,7 @@ header p > span {
 	justify-content: space-between;
 }
 
-h1,h2,h3,h5 {
+h1,h2,h3,h5,h4 {
 	font-family: 'Playfair Display SC', serif;
 	color: #e0c18d;
 }
@@ -208,48 +208,14 @@ main {
 
 .line {
 	width: 42px;
-	height: 7px;
+	height: 4px;
 	background: #d8b98a;
 	margin-left: 48%;
 	margin-top: 30px;
 	margin-bottom: 40px;
 }
 
-.hair {
-	width: 432px;
-	background: #d8b98a;
-	border: 1px solid #d8b98a;
-	padding: 22px 115px 19px 77px;
-	color: #fff;
-	margin-left: 0;
-}
 
-.left-container a  {
-	color: #999999;
-	font-size: 18px;
-	font-weight: bold;
-
-}
-
-.left-container p {
-	margin-top: 20px;
-	margin-bottom: 20px;
-	padding-right: 10px;
-	padding-bottom: 16px;
-	border-bottom: 1px solid #999;
-	width: 350px;
-
-}
-
-
-
-
-
-.first-line img {
-	width: 30px;
-	height: 40px;
-
-}
 
 .section-services img {
 	padding-left: 60px;
@@ -258,6 +224,7 @@ main {
 	
 	
 }
+
 
 .section-services {
 	margin-right: 100px;
@@ -273,31 +240,43 @@ main {
 }
 
 .text-poem {
-	width: 344px;
+	width: 362px;
+	height: 443px;
     margin-left: 40px;
+    font-size: 12px;
+    text-align:left;
+   
 }
 
 
-.button-services {
-	background: #;
+img.botox {
+	padding-left: 10px;
+	padding-right: 20px;
+}
+
+.all-serv a {
+	text-decoration: none;
+	color: #999999;
+	font-size: 12px;
+	font-weight: bold;
 }
 
 
-.top-section {
-	width: 1229px;
-	margin-top: 40px;
-	display: flex;
-	justify-content: space-between;
+
+.card {
+	border:none;
 }
 
-.bottom-section {
-	width: 1250px;
-	margin-top: 40px;
-	margin-left: 157px;
-	 display: flex;
-	justify-content: space-around; 
-	
+
+
+.all-serv p {
+	width: 100%;
+	padding-left: 34px;
+	margin-top:-18px;
+	margin-left: 10px;
 }
+
+
 
 .about-salon {
 	width: 344px;
@@ -336,11 +315,27 @@ main {
 
 .carousel-indicators li {
 	width: 5px;
+	height: 5px;
+	border-radius: 50%;
 }
 
+
+
 .carousel-control-next-icon, .carousel-control-prev-icon {
+	display: block;
+}
+
+
+.icon-slide {
 	display: none;
 }
+
+.slide-feed>.carousel-control-next-icon {
+	left:400px;
+	color: red;
+	z-index: 1000;
+}
+
 
 .feedback {
 	width: 100%;
@@ -374,7 +369,7 @@ main {
 .carousel-caption {
 	z-index: 2000;
 	position: absolute;
-	bottom: 240px;
+	bottom: 270px;
 }
 
 .carousel-caption h5 {
@@ -388,7 +383,11 @@ main {
 
 .carousel-caption p {
 	color: #918f90;
-	font-size: 18px;
+	font-size: 14px;
+	width: 635px;
+	position: absolute;
+	left: 319px;
+    top: 260px;
 }
 
 .button-services {
@@ -419,4 +418,143 @@ main {
 .salon-slide img {
 	width:805px;
 	height: 565px;
+}
+
+p.stars {
+	font-size: 16px;
+	position: absolute;
+	top: 200px;
+    left: 349px;
+}
+
+p.manicur-p {
+	font-size: 16px;
+    position: absolute;
+    top: 172px;
+    left: 353px;
+
+}
+
+.appointment-now {
+	max-width: 1920px;
+	width: 100%;
+	height: 201px;
+	background: #231f20;
+	position: relative;
+	content: "";
+	display: block;
+	
+	}
+
+.appointment-now h4 {
+	color: #fff;
+	text-align: center;
+	padding-top: 47px;
+	
+	
+	
+}
+
+
+
+.appointment-now .buttons {
+	width: 521px;
+	margin-left: 723px;
+}
+
+.left-lines, .right-lines{
+	width: 396px;
+	height: 85px;
+	background: transparent;
+	border:thin #ccb134 dotted;
+	border-bottom:none;
+	
+
+}
+
+.left-lines {
+	border-right: none;
+	position: absolute;
+	top: 67px;
+    left: 369px;
+}
+
+
+.left-line-bottom-border {
+	width: 304px;
+	height: 1px;
+	border-bottom:thin #ccb134 dotted;
+	position: absolute;
+	top:82px;
+	left: 0;
+
+}
+
+.right-lines {
+	border-left: none;
+	position: absolute;
+	top:67px;
+	right: 360px;
+}
+
+
+.right-line-bottom-border {
+	width: 304px;
+	height: 1px;
+	border-bottom:thin #ccb134 dotted;
+	position: absolute;
+	top:82px;
+	right: 0;
+}
+
+.map iframe {
+	max-width: 1920px;
+	height: 540px;
+	width: 100%;
+	margin-right: 0;
+	position: relative;
+	
+}
+
+
+
+img.point-map {
+	position: absolute;
+	bottom: -2791px;
+    left: 928px;
+    width: 50px;
+    height: 50px;
+}
+
+.contacts-block-map {
+	width: 388px;
+	height: 440px;
+	background: #fff;
+	position: absolute;
+	left: 1253px;
+    top: 3110px;
+}
+
+.contacts-block-map h4 {
+	color: #000;
+	padding-top: 40px;
+}
+
+.contacts-block-map p {
+	font-size: 16px;
+	padding-left: 20px;
+}
+
+footer {
+	max-width: 1920px;
+	width: 100%;
+	height: 60px;
+	background: #eee;
+	margin-top: -45px;
+	text-align: center;
+	font-size: 17px;
+}
+
+footer p {
+	padding-top: 30px;
 }
