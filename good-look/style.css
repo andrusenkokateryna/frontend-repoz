@@ -1,0 +1,2250 @@
+@font-face{
+
+font-family: 'MyriadPro-Regular';
+
+src: url('../fonts/WebFont.ttf') format('truetype');
+
+font-weight: normal;
+font-weight: bold;
+
+font-style: normal;
+
+}
+
+*, *::after, *::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;	
+}  
+
+body {
+
+	height: 100%;
+	width: 1920px;
+	margin: 0;
+	padding:0;
+}
+
+
+
+
+.container {
+	max-width: 1920px;
+	width: 100%;
+	margin: 0;
+	padding:0;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+#show {
+	 display:none;
+	 width: 28px;
+	 height: 16px;
+	 border: none;
+	 background:transparent;
+	 float: right;
+	 position: absolute;
+	 left: 207px;
+     top: -14px;
+}
+
+#close {
+	display:none;
+	 width: 28px;
+	 height: 16px;
+	 border: none;
+	 background:transparent;
+	 float: right;
+	 position: absolute;
+	 left: 207px;
+     top: -14px;
+}
+
+
+
+.logo-show {
+	display: none;
+}
+
+
+.color-white {
+	color: #fff;
+}
+
+.line {
+	height: 2px;
+	background: #b5a263;
+	width: 82px;
+	position: absolute;
+	left: 958px;
+
+}
+
+
+
+
+.left-logo .line {
+	display: none;
+}
+
+
+header a>span,.contacts-block-map>p>span {
+	color: #d8b887;
+	padding-left: 60px;
+	}
+
+h1,h2,h3,h5,h4 {
+	font-family: 'Playfair Display SC', serif;
+}
+
+
+header p, .main-scroll p {
+	color: #d8b887;
+	padding-left: 20px;
+}
+
+/* <HEADER> */
+
+header {	
+	height: 88px;
+	width: 100%;
+	z-index: 99;
+	margin: -25px auto;
+	max-width: 1920px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	
+} 
+
+
+
+header p > span {
+	color: #fff;
+}
+
+
+header.navbar {
+	width: 100%;
+	height: 102px;
+	margin: 0 auto;
+	background: #0c0b0b;
+	display: flex;
+	justify-content: space-between;
+
+
+}
+
+
+li {
+	
+	list-style: none;
+	display: flex;
+}
+
+a {
+	text-decoration: none;
+
+}
+
+.navbar {
+	margin-left:10px;
+}
+
+.navbar a {
+	font-size: 14px;
+	color: #fff;
+	padding:0 25px 0 45px;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.mobile-logo-top,.logo-for-mobile {
+	display: none;
+}
+
+.phone svg {
+	fill:#d8b989;
+	width: 20px;
+	height: 30px;	
+}
+
+
+.smartphohe-icon{
+	padding-top: 10px;
+	padding-right: 3px;
+	position: relative;
+	top:-15px;
+	left:5px;
+}
+
+.number-tel, .main-scroll .number-tel {
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+.navbar ul, .main-menu-scroll ul {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 355px;
+}
+
+
+
+.phone  {
+	float:right;
+	padding:0;
+	margin-right: -369px;
+	margin-top: -17px;
+	font-size: 18px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.main-menu {
+	margin-right: 217px;
+	margin-top: 44px;
+	
+	
+}
+
+.main-menu a .main-scroll-menu a{
+	position: relative;
+	text-align: left;
+	padding-left: 45px;
+}
+
+
+#menu-checkbox {
+	display: none;
+}
+
+
+
+/* </HEADER> */
+
+
+/* HEADER_CONTAINER-START
+ */
+
+.header-container {
+	background: #000 url(./img/bgd.png ) no-repeat;
+	height: 900px;
+	max-width: 1920px;
+	padding-top: 120px;
+	padding-bottom: 280px;
+	margin-top: -67px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.left-logo img {
+	width: 200px;
+	height: 163px;
+	margin-left: 342px;
+	margin-top: 263px;
+}
+
+
+.right-logo {
+	margin-right: 363px;
+	text-align: center;
+	margin-top: 263px;
+}
+
+.right-logo p {
+	font-size: 24px;
+	padding-top: 29px;
+	color: #fff;
+	font-family: 'fonts/MyriadPro-Regular.ttf';
+
+
+
+}
+
+.right-logo h1,h2 {
+	color: #fff;
+	font-size: 48px;
+	font-family: 'Playfair Display', serif;
+}
+
+
+.right-logo h2 {
+	color: #d8b989;
+}
+button {
+	padding:15px 36px;
+	border-radius: 48px;
+	margin-top: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	display: flex;
+	justify-content: space-around;
+	font-family: 'fonts/MyriadPro-Regular.ttf';
+	width: 274px;
+	height: 48px;
+}
+
+
+
+.buttons {
+	width: 435px;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.prise-list {
+	background: #fff;
+	color: #000;
+	border: 1px solid #fff;
+	margin-right: 15px;
+}
+
+
+.record-online {
+	background: #ccb134;
+	color: #fff;
+	border: 1px solid #ccb134;
+	margin-left: 15px;
+}
+
+
+/* HEADER_CONTAINER-FINISH */
+
+/* MAIN_START
+ */
+main {
+	background:#fff;
+	padding-top: 80px;
+	padding-bottom: 40px;
+
+}
+
+
+.main-side-services h3 {
+	font-size: 34px;
+	text-align: center;
+	color: #000;
+	margin-bottom: 20px;
+
+}
+
+.main-side-services .line {
+	margin-left: -2%;
+    margin-top: -10px;
+	margin-bottom: 40px;
+
+}
+
+.line {
+	width: 40px;
+	height: 4px;
+	background: #d8b98a;
+	margin-left: -2%;
+	margin-top: 30px;
+	
+}
+
+.main-side-services {
+	height: 1445px;
+	background: #fff url(./img/servise-bg-top.png) no-repeat 0 0;
+
+}
+.section-services {
+	margin-top: 40px;
+	padding-top: 0;
+}
+
+.section-services-items, .section-services-bottom {
+	display:flex;
+	justify-content: space-around;
+	margin-right: 370px;
+	margin-left: 345px; 
+}
+
+.hair-servise-butt {
+	padding: 14px 50px;
+}
+
+.servise-lists {
+	font-family:'fonts/MyriadPro-Regular.ttf';
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.servise-lists a  {
+	color: #999;
+}
+
+.servise-lists a svg {
+	fill: #999;
+	width: 24px;
+	height: 21px;
+	margin-right: 10px;
+}
+
+.servise-lists a span, .main-scroll a span {
+	color: #d8b887;
+	padding-left: 21px;
+    padding-right: 21px;
+}
+
+
+.main-line {
+	width: 1920px;
+	height: .2px;
+	display: none;
+	border-bottom: thin #ccb134 dotted;
+	margin-left: -365px;
+
+}
+
+
+.main-scroll a span {
+	padding-left: 72px;
+    padding-right: 8px;
+}
+
+.servise-lists ul li {
+	border-bottom: thin #999 dotted;
+}
+
+.servis-text {
+	width: 358px;
+	height: 445px;
+	font-family:'fonts/MyriadPro-Regular.ttf';
+	font-weight: 16px;
+
+}
+
+
+.service-slide {
+	width: 806px;
+	height: 565px;
+}
+
+.slick-dots li {
+	top:-12px!important;
+
+}
+
+
+.section-services-bottom {
+ margin-top: 136px;
+}
+
+#service-h3, .for-sm-dev-line {
+	display: none;
+}
+
+
+.main-scroll {
+	width: 1920px;
+	width: 100%;
+	height: 65px;
+	background: #231f20;
+	margin: 79px 0;
+	display: flex;
+	justify-content:space-around;
+	position: relative;
+}
+
+.about-salon-text {
+	width: 354px;
+	height: 336px;
+	font-family:'fonts/MyriadPro-Regular.ttf';
+	font-size: 16px;
+	margin-top: 154px;
+	margin-right: 60px;
+}
+
+.about-salon-text .line {
+	margin-left: -23%;
+    margin-top: -10px;
+}
+
+.main-scroll-menu {
+margin-top: 22px;
+}
+
+.main-scroll nav {
+	max-width: 1920px;
+	width: 100%;
+	height: 65px;
+	background: #231f20;
+	margin-top: 20px;
+	display: inline-block;
+
+}
+
+.scroll-logo {
+	margin-left: 104px;
+	
+}
+
+ul.main-scroll-menu {
+	margin-left: -279px;
+	margin-right: -181px;
+}
+
+.arrows-main {
+	display: none;
+}
+
+.main-scroll .phone {
+	margin-right: -94px;
+	margin-top: 22px;
+}
+
+.main-scroll-btn {
+	width: 205px;
+	height: 48px;
+	padding-top: 15px;
+	margin-top: 9px;
+}
+
+.stars svg {
+	fill: #d8b989;
+}
+
+.slide-feed {
+	background: #999 url(./img/feedback-bg.png) no-repeat center;
+	width: 100%;
+	height: 515px;
+	position: relative;
+}
+
+.slick-prev:before {
+    content:url("./img/prev.png")!important;
+
+}
+
+.slick-next {
+	z-index: 99999;
+	right: 385px;
+	top: 306px;
+}
+
+.slick-next:before
+{
+    content:url("./img/next.png")!important;
+}
+
+.slick-prev {
+	z-index: 99999;
+	left: 385px;
+	top:306px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+
+
+.slide-feed h5 {
+	color: #fff;
+	font-size: 34px;
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	padding-top: 79px;
+	margin-bottom: 40px;
+}
+
+.slide-feed .line {
+	left: 975px;
+	top:143px;
+}
+
+.slide-feed h4 {
+	color: #fff;
+	font-size: 18px;
+	font-family: 'fonts/MyriadPro-Regular.ttf';
+	font-weight: bold;
+	text-align: center;
+}
+
+p.manicur-p {
+	color: #999;
+	text-align: center;
+	font-size: 16px;
+	font-family: 'fonts/MyriadPro-Regular.ttf';
+	text-align: center;
+	
+}
+
+p.stars {
+	font-size: 16px;
+	position: absolute;
+	top: 200px;
+    left: 918px;
+}
+
+.feedback-text {
+	width: 738px;
+	text-align: center;
+	color: #fff;
+	font-family:'Playfair Display', serif;
+	font-size: 18px;
+	position: absolute;
+	top: 292px;
+	left: 600px;
+}
+
+.appointment-now {
+	max-width: 1920px;
+	width: 100%;
+	height: 201px;
+	background: #231f20;
+	position: relative;
+	top:-31px;
+	content: "";
+	display: block;
+	margin-bottom: 0;
+}
+
+.appointment-now h4 {
+	color: #fff;
+	text-align: center;
+	padding-top: 47px;
+	font-family:'Playfair Display', serif;
+	font-size: 24px;
+
+	
+}
+
+
+.appointment-now .buttons {
+	width: 521px;
+	margin-left: 723px;
+}
+
+.left-lines, .right-lines{
+	width: 396px;
+	height: 85px;
+	background: transparent;
+	border:thin #ccb134 dotted;
+	border-bottom:none;
+}
+
+.left-lines {
+	border-right: none;
+	position: absolute;
+	top: 67px;
+    left: 369px;
+}
+
+
+.left-line-bottom-border {
+	width: 304px;
+	height: 1px;
+	border-bottom:thin #ccb134 dotted;
+	position: absolute;
+	top:82px;
+	left: 0;
+
+}
+
+.right-lines {
+	border-left: none;
+	position: absolute;
+	top:67px;
+	right: 360px;
+}
+
+
+.right-line-bottom-border {
+	width: 304px;
+	height: 1px;
+	border-bottom:thin #ccb134 dotted;
+	position: absolute;
+	top:82px;
+	right: 0;
+}
+
+
+
+
+#map  {
+	max-width: 1920px;
+	height: 540px;
+	width: 100%;
+	margin-right: 0;
+	margin-top: -31px;
+	position: relative;
+	content:'';
+	cursor: pointer;
+
+}
+
+
+
+.contacts-block-map {
+	width: 390px;
+	height: 387px;
+	background: #fff;
+	position: absolute;
+	left: 1253px;
+    top: 3205px;
+   
+
+    
+}
+
+.contacts-block-map-list{
+	display: block;
+	position: relative;
+	padding-left: 38px;
+	margin-top: 20px;
+
+}
+
+.contacts-block-map-list p {
+	padding-left: 10px;
+}
+
+
+.contacts-block-map-list img {
+	margin-right: 5px;
+}
+
+.contacts-block-map h4 {
+	color: #333;
+	padding-top: 50px;
+	padding-bottom: 40px;
+	text-align: center;
+	font-size: 34px;
+	font-family:'Playfair Display', serif;
+}
+
+.contacts-block-map p {
+	font-size: 18px;
+	color: #333;
+	font-weight: normal;
+	font-family: sans-serif;
+	padding-left: 20px;
+	padding-top: 5px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+
+
+
+.contacts-block-map .line {
+	position: absolute;
+	left: 177px;
+    top: 116px;
+
+}
+
+.contacts-block-map a span {
+	color: #333;
+	padding-left: 21px;
+    padding-right: 21px;
+}
+
+.contacts-block-map .phone p {
+	color: #d8b887;
+	display: flex;
+	justify-content: space-around
+}
+
+.contacts-block-map .phone p span {
+	color: #333;
+}
+
+.contacts-block-map a {
+	text-decoration: none;
+	color: #333;
+	font-family:sans-serif;
+}
+
+.contacts-block-map .phone {
+	position: absolute;
+    top: -9px;
+    left: 32px;
+    padding-bottom: 10px;
+}
+
+.contacts-block-map p.smartphohe-icon {
+	position: relative;
+	top: 0;
+	left: 9px;
+
+}
+
+.contacts-block-map .adress {
+	position: absolute;
+	top: 0;
+	left: 9px;
+}
+
+.contacts-block-map p.adress {
+	position: relative;
+	top: 10px;
+    left: 5px;
+}
+
+.place {
+	position: relative;
+	top: 18px;
+    left: 0px;
+}
+
+.time {
+	position: relative;
+	top: 56px;
+    left: 4px;
+}
+
+
+.insta {
+	position: relative;
+	top: 82px;
+	left: 7px;
+	
+}
+
+.insta p {
+	font-size: 24px;
+	font-family: 'fonts/MyriadPro-Regular.ttf';
+	color: #333;
+}
+
+/* MAIN_FINISH*/
+
+/* FOOTER */
+
+.footer {
+	position: relative;
+	top: 1170px;	
+}
+
+footer {
+	max-width: 1920px;
+	width: 100%;
+	height: 60px;
+	background: #eee;
+	margin-bottom: 0;
+	text-align: center;
+	font-size: 17px;
+	font-family: 'fonts/MyriadPro-Regular.ttf';
+}
+
+footer p {
+	padding-top: 30px;
+	text-align: center;
+	
+}
+/* FOOTER */
+
+/* MEDIA For 1366px */
+
+@media (max-width: 1367px){
+body {
+	padding: 0;
+	margin: 0;
+	width: 1367px;
+		}
+
+.container {
+	max-width: 1367px;
+	width: 100%;
+	
+}
+
+.mobile-logo-top {
+	display: none;
+}
+
+.last {
+	display: none;
+}
+
+header {	
+	max-width: 1367px;
+	width: 100%;
+}
+
+header .navbar ul {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 99px;
+} 
+
+.phone {
+	margin-right: -150px;
+	}
+
+.header-container {
+	background: #000 url(./img/bgd.png ) no-repeat center;
+	width: 1367px;
+}
+
+.left-logo img {
+	margin-left: 219px;
+	}
+
+.right-logo h1, h2 {
+	font-size: 36px;
+
+	}
+	
+.right-logo {
+    margin-right: 245px;
+	margin-top: 234px;
+}
+
+.right-logo p {
+    font-size: 19px;
+    padding-top: 18px;
+    
+}
+
+	button {
+	width: 221px;
+}
+
+	.main-side-services h3 {
+	font-size: 32px;
+}
+
+.main-side-services .line {
+	margin-left: -23%;
+}
+
+.hair-servise-butt {
+    padding: 8px 58px;
+    width: 249px;
+}
+
+
+.section-services-items {
+	margin-right: 10px;
+    margin-left: 109px;
+}
+
+.section-services-bottom {
+	margin-right: 6px;
+    margin-left: 0;
+}
+
+.about-salon-text .line {
+    margin-left: -57%;
+}
+
+
+.scroll-logo {
+    display: none;
+}
+
+
+
+.main-scroll .navbar a {
+	font-size: 12px;
+}
+
+ul.main-scroll-menu  {
+	margin-left: -49px;
+	
+}
+
+.main-scroll .number-tel {
+	font-size: 14px;
+}
+
+.main-scroll a span {
+    margin-right: -7px;
+    margin-left: -65px;
+}
+	
+.slide-feed .line {
+	left: 976px;
+}
+	
+.main-scroll a span {
+    padding-left: 115px;
+   
+}
+
+p.stars {
+	left: 636px;
+}
+
+.feedback-text {
+	width: 390px;
+	font-size: 14px;
+	left: 495px;
+	top: 256px;		
+}
+
+.appointment-now h4 {
+	font-size: 22px;
+	padding-top: 31px;
+
+}
+
+.left-lines {
+	top: 42px;
+	left: 121px;
+    
+}
+
+
+.right-lines{
+	top: 42px;
+   left: 845px;
+}
+
+.appointment-now .buttons {
+	width: 464px;
+    margin-left: 455px;
+}
+
+.contacts-block-map {
+	left: 871px;
+}
+   
+
+}/* MEDIA_1366px-finish */
+
+
+/* MEDIA For 1220px */
+
+@media (max-width: 1221px){
+		
+header .navbar ul {
+	margin-left: 65px;
+} 
+
+
+.left-logo img {
+		margin-left: 219px;
+	}
+
+.main-scroll-btn {
+	margin-left: -97px;
+}
+
+
+.main-scroll {
+	background:#231f20 url(./img/logo-scroll.png) no-repeat  41px 3px;
+}
+
+
+
+.right-logo h1, h2 {
+		font-size: 36px;
+}
+	
+.right-logo {
+    margin-right: 279px;
+    margin-top: 183px;
+}
+
+.right-logo p {
+    font-size: 19px;
+    padding-top: 18px;
+    
+}
+
+.buttons {
+	font-size: 14px;
+}
+
+button {
+	width: 205px;
+	padding: 15px 29px;
+}
+
+.main-side-services h3 {
+	font-size: 32px;
+}
+
+.main-side-services .line {
+	margin-left: -27%;
+}
+
+.servis-text {
+	    width: 264px;
+	    font-size: 14px;
+}
+
+.hair-servise-butt {
+    padding: 8px 58px;
+    width: 249px;
+}
+
+
+.section-services-items {
+	margin-right: 238px;
+    margin-left: -11px;
+}
+
+.section-services-bottom {
+margin-right: 215px;
+margin-left: -29px;
+}
+
+.about-salon-text .line {
+    margin-left: -74%;
+}
+
+.service-slide {
+	width: 754px;
+}
+
+.service-slide img {
+	width: 800px;
+}
+
+.service-slide .slick-dots li {
+	left: 0;
+}
+
+.slide-feed {
+	width: 1220px;
+	width: 100%;
+}
+
+.slide-feed img {
+	width: 1220px;
+}
+
+
+.about-salon-text {
+	font-size: 14px;
+	width: 262px;
+	margin-right: -75px;
+}
+
+.scroll-logo {
+    display: none;
+}
+
+
+
+.main-scroll .navbar a {
+	font-size: 12px;
+}
+
+ul.main-scroll-menu  {
+	margin-left: -49px;
+	
+}
+
+.main-scroll .number-tel {
+	font-size: 14px;
+}
+
+.main-scroll a span {
+    margin-right: -7px;
+    margin-left: -65px;
+}
+	
+.slide-feed .line {
+	left: 1033px;
+}
+	
+.main-scroll a span {
+    padding-left: 115px;
+   
+}
+
+.main-scroll >.phone svg {
+	margin-left: -63px;
+	margin-right: 10px;
+}
+
+.main-scroll >.phone p {
+	margin-left: -48px;
+}
+
+p.stars {
+	left: 637px;
+}
+
+.slick-next {
+	z-index: 99999;
+	right: 320px;
+	top: 255px;
+}
+
+.slick-prev {
+	z-index: 99999;
+	left: 320px;
+	top:255px;
+}
+
+.slick-dots li {
+	top:-12px!important;
+	left: -70px;
+
+}
+
+.feedback-text {
+	width: 390px;
+	font-size: 14px;
+	left: 493px;
+    top: 240px;	
+}
+
+.appointment-now h4 {
+	font-size: 22px;
+	padding-top: 31px;
+	padding-right: 200px;
+
+}
+
+.left-lines {
+	top: 42px;
+	left: 22px;
+    
+}
+
+
+.right-lines{
+	top: 42px;
+    left: 749px;
+}
+
+.appointment-now .buttons {
+	width: 445px;
+    margin-left: 363px;
+}
+
+.contacts-block-map {
+	left: 853px;
+	width: 365px;
+	
+}
+
+.contacts-block-map .line {
+	left: 270px;
+    top: 119px;
+}
+
+.contacts-block-map .phone {
+	left: 7px;
+}
+
+.contacts-block-map p.adress {
+	left: -21px;
+}
+
+.time {
+	left: -21px;
+}
+
+.insta {
+	left: -21px;
+}
+
+
+}/* MEDIA_1220px-finish */
+
+
+
+/* MEDIA For 768px */
+
+@media (max-width: 769px){
+
+		
+header .navbar ul {
+	margin-left: -9px;
+} 
+
+
+.navbar a {
+	padding: 0;
+}
+
+header a>span {
+	padding-left: 12px;
+	padding-right: 12px;
+
+}
+
+header .phone {
+	  margin-right: -143px;
+
+}
+
+.main-menu li {
+	display: inline-block;
+	padding-right: 5px;
+}
+
+header p.number-tel{
+	font-size: 27px;
+}
+
+header .phone svg {
+   width: 30px;
+   height: 42px;
+}
+
+.header-container {
+	width: 768px;
+	height: 1024px;
+    background: #0b0b0b url(./img/bgd-half.png) no-repeat;
+    display: flex;
+    flex-direction: column;
+  	
+  
+}
+
+
+.left-logo img {
+	margin-left: 222px;
+	margin-top: 87px;
+}
+
+.main-scroll-btn {
+	margin-left: -97px;
+}
+
+
+.main-scroll {
+	background:#231f20 url(./img/logo-scroll.png) no-repeat  41px 3px;
+}
+
+
+
+.right-logo h1, h2 {
+	font-size: 48px;
+	margin-bottom: 0;
+}
+
+
+	
+.right-logo {
+    position: absolute;
+   	top: 215px;
+    left: 158px;
+}
+
+
+
+.right-logo p {
+    font-size: 19px;
+    padding-top: 18px;
+    
+}
+
+.buttons {
+	font-size: 14px;
+}
+main {
+	max-width: 768px;
+	width: 100%;
+}
+
+h3 {
+	text-align: center;
+}
+
+	button {
+	width: 205px;
+	padding: 15px 29px;
+}
+
+.main-side-services h3 {
+	font-size: 32px;
+}
+
+.main-side-services .line {
+	margin-left: -82%;
+    margin-top: 4px;
+	
+}
+
+
+
+	.hair-servise-butt {
+ 	position: relative;
+    width:725px;
+    left: 141px;
+    padding-right: 1px;
+	
+    
+}
+
+.hair-servise-butt img {
+	position: relative;
+	right: 356px;
+}
+
+.hair-servise-butt span {
+	position: absolute;
+	left: 35px;
+	color: #fff!important;
+
+}
+
+.all-serv {
+
+	width: 52rem!important;
+}
+
+
+.list-group-item {
+	padding-left: 174px;
+}
+
+
+.section-services-items {
+	position: relative;
+	height: 1000px;
+
+}
+
+
+.picture {
+	position: absolute;
+	top: 309px;
+    left: 21px;
+
+}
+
+.arrows-main {
+
+	width: 140px;
+	position: relative;
+	top: -179px;
+    left: 308px;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.arrows-main button {
+	width: 60px;
+	height: 60px;
+	border: 1px solid #d8b989;
+	border-radius: 50%;
+	background: #d8b989;
+}
+
+.main-line {
+	width: 733px;
+	height: .2px;
+	display: block;
+	border-bottom: thin #d8b989 dotted;
+	margin-left: 8px;
+}
+
+
+
+.servis-text {
+	position: absolute;
+	width: 353px;
+	font-size: 16px;
+	top: 309px;
+	right: -207px;
+}
+
+
+.section-services-bottom .line {
+	position: absolute;
+	top: 2376px;
+	left: 949px;
+}
+
+
+
+.section-services-bottom {
+	height: 1072px;
+	width: 737px;
+	display: flex;
+	flex-direction: column-reverse;
+
+}
+
+
+.service-slide {
+	width: 727px;
+    margin-left: 37px;
+   margin-top: -69px;
+
+}
+
+
+
+.service-slide .slick-dots li {
+	left: 0;
+}
+
+.slide-feed {
+	width: 766px;
+	height: 520px;
+	width: 100%;
+	background: #999 url(./img/feed-bg-sm.png) no-repeat center;
+}
+
+.slide-feed img {
+	width: 1220px;
+}
+
+
+.about-salon-text {
+	font-size: 14px;
+	width: 262px;
+	margin-right: -75px;
+}
+
+.about-salon-text h3 {
+	display: none;
+}
+
+.about-salon-text {
+	width: 720px;
+    text-align: justify;
+    margin-left: 41px;
+    margin-top: -194px;
+    height: 254px;
+}
+
+.main-line {
+	width: 733px;
+    height: .2px;
+    display: block;
+    border-bottom: thin #d8b989 dotted;
+    margin-left: 8px;
+}
+
+
+.main-scroll {
+	display: none;
+}
+
+
+.section-services-bottom h3 {
+    display: block;
+    text-align: center;
+    font-size: 32px;
+    position: absolute;
+    top: 2320px;
+    left: 264px;
+}
+
+
+	
+.slide-feed .line {
+	left: 222px;
+	
+}
+	
+.main-scroll a span {
+    padding-left: 115px;
+   
+}
+
+.main-scroll >.phone svg {
+	margin-left: -63px;
+	margin-right: 10px;
+}
+
+.main-scroll >.phone p {
+	margin-left: -48px;
+}
+
+p.stars {
+	left: 339px;
+	top: 217px;
+}
+
+.slick-next {
+	right: 49px;
+    top: 225px;
+}
+
+.slick-prev {
+	left: 24px;
+    top: 229px;
+}
+
+.slick-dots li {
+	top:-12px!important;
+	left: -11px;
+
+}
+
+.feedback-text {
+	width: 390px;
+	font-size: 16px;
+	left: 200px;
+    top: 294px;
+}
+
+.appointment-now {
+	max-width: 766px;
+	width: 100%;
+}
+
+.appointment-now h4 {
+	font-size: 22px;
+	padding-top: 31px;
+	padding-right: 0px;
+
+}
+
+.left-lines {
+	top: 42px;
+    left: 15px;
+   	width: 155px;
+    height: 73px;
+    
+}
+
+.left-line-bottom-border {
+	width: 113px;
+	top: 73px;
+}
+
+
+.right-lines{
+	top: 42px;
+    left: 571px;
+    width: 155px;
+    height: 73px;
+}
+
+.right-line-bottom-border {
+	 width: 113px;
+	 top: 73px;
+}
+
+.appointment-now .buttons {
+	width: 445px;
+   margin-left: 145px;
+}
+
+#map {
+	max-width: 766px;
+	width: 100%;
+	height: 854px;
+}
+
+.contacts-block-map {
+	left: 9px;
+    width: 734px;
+    height: 278px;
+    top: 4738px;
+	
+}
+
+.contacts-block-map .line {
+	left: 945px;
+    top: 107px;
+}
+
+.contacts-block-map .phone {
+	left: 7px;
+}
+
+.contacts-block-map p.adress {
+	left: -21px;
+}
+
+.time {
+	left: 363px;
+	top: -67px;
+}
+
+.insta {
+	left: 363px;
+	top: -44px;
+}
+
+.footer {
+    position: relative;
+    top: 2420px;
+    max-width: 767px;
+    width:100%;
+  }
+footer p {
+	text-align: center;
+}
+}/* MEDIA_768px-finish */
+
+
+
+
+/* MEDIA For 320px */
+
+@media (max-width: 321px){
+
+header {
+	margin-top: -25px;
+}
+
+
+
+
+
+header .navbar ul {
+	display:block;
+	width: 320px;
+	height: 380px;
+	background: #231f20;
+	margin-top: 83px;
+	margin-bottom: 100px;
+	position: relative;
+	z-index: 99999999;
+}
+
+
+
+
+
+header .navbar li {
+	padding-bottom: 6px;
+}
+
+.last {
+		display: block;
+	}
+
+
+.main-menu a {
+	font-size: 16px;
+}
+
+
+.main-menu a span {
+		float: left;
+
+	}
+
+
+#show {
+		display:block;
+		float: right;
+		z-index: 99999;
+		cursor: pointer;
+		border:none;
+		border: none!important;
+		outline: none!important;
+}
+
+
+
+
+#close {
+	display: block;
+	cursor:pointer;
+	border: none!important;
+	outline: none!important;
+}		
+
+header .phone {
+	position: absolute;
+   top: 431px;
+   left: -16px;
+   font-weight: bolder;
+   background: #2c2725;
+   width: 320px;
+   height: 63px;
+   z-index: 9999;
+	 
+
+
+}
+
+
+.main-menu li {
+		width: 100%;
+		font-size: 12px;
+}
+
+
+.main-menu li:hover {
+	background: #d8b989;
+}
+
+.main-menu li:hover span {
+	color: #fff;
+}
+
+	
+
+.main-menu a {
+		display: block;
+		padding: 15px;
+		margin-left: 10px;
+		color: #fff;
+		font-weight: bolder;
+		font-size: 16px;
+
+}
+
+	.main-menu a span {
+		float: left;
+
+}
+
+
+
+header a>span {
+	padding-left: 12px;
+	padding-right: 12px;
+
+}
+
+header .phone {
+   position: absolute;
+   top: 455px;
+   left: -16px;
+   font-weight: bolder;
+   background: #2c2725;
+   width: 320px;
+   height: 63px;
+   z-index: 9999;
+}
+
+
+
+.mobile-logo-top {
+	display: block;
+	position: absolute;
+	top:-1px; 
+	left:0px; 
+	background: #231f20 url(./img/scroll-logo.png)no-repeat;
+	width: 320px;
+	height: 59px;
+	border-bottom: 2px solid #2c2725;
+	z-index:99999;
+
+}
+
+.logo-for-mobile {
+	position: absolute;
+	top: -3px;
+	left: 4px;
+	display: block;
+
+}
+
+header p.number-tel{
+	font-size: 27px;
+	position: relative;
+	top: 9px;
+	left: -77px;
+}
+
+header .phone svg {
+   width: 30px;
+   height: 42px;
+   position: absolute;
+   top: 18px;
+  }
+
+.header-container {
+	width: 320px;
+	height: 480px;
+    background: #0b0b0b url(./img/mobile-bg.png) no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-logo img {
+	margin-left: 58px;
+    margin-top: -111px;
+    position: relative;
+
+}
+
+.left-logo .line {
+	display: block;
+	position: absolute;
+	top: 171px;
+    left: 147px;
+}
+
+
+
+.menu-for-small {
+	display: none;
+}
+
+.right-logo h1, h2 {
+	display: none;
+	
+}
+
+.right-logo p {
+	width: 192px;
+	margin-left: 75px;
+}
+	
+.right-logo {
+    position: absolute;
+   	top: 43px;
+    left: -20px;
+}
+
+
+
+.right-logo p {
+    font-size: 19px;
+    padding-top: 18px;
+    
+}
+
+.buttons {
+	font-size: 14px;
+	width: 300px;
+	height: 113px;
+	display: block;
+	
+}
+
+
+.buttons button {
+	margin-left: 23px;
+
+}
+
+
+.buttons button img {
+	position: absolute;
+	left: 88px;
+}
+
+
+.main-side-services {
+	height: 2375px;
+	width: 320px;
+}
+
+.main-side-services h3 {
+	font-size: 28px;
+}
+
+
+
+.main-side-services .line {
+	margin-left: -273%;
+ }
+
+
+.hair-servise-butt {
+   position: relative;
+   width:294px;
+   left: 160px;
+   padding-right: 1px;
+	
+    
+}
+.buttons .prise-list, .buttons .record-online {
+	width: 294px;
+}
+
+
+
+main {
+	max-width: 768px;
+	width: 100%;
+}
+
+h3 {
+	text-align: center;
+}
+
+	button {
+	width: 205px;
+	padding: 15px 29px;
+}
+
+
+
+
+
+
+
+.hair-servise-butt img {
+	position: relative;
+	right: 138px;
+	top: -4px;
+}
+
+.hair-servise-butt span {
+	position: absolute;
+	left: 35px;
+	color: #fff!important;
+
+}
+
+.all-serv {
+
+	width: 26rem!important;
+	margin-left: 5px;
+}
+
+
+.list-group-item {
+	padding-left: 174px;
+}
+
+
+.section-services-items {
+	position: relative;
+	height: 1000px;
+
+}
+
+
+.picture {
+	position: absolute;
+	top: 309px;
+    left: 21px;
+
+}
+
+.arrows-main {
+
+	width: 140px;
+	position: relative;
+	top: -179px;
+    left: 308px;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.arrows-main button {
+	width: 60px;
+	height: 60px;
+	border: 1px solid #d8b989;
+	border-radius: 50%;
+	background: #d8b989;
+}
+
+.servis-text {
+	position: absolute;
+	width: 282px;
+	font-size: 16px;
+	top: 779px;
+    right: -213px;
+}
+
+
+.section-services-bottom .line {
+	top: 2168px;
+    left: 957px;
+}
+
+
+
+.section-services-bottom {
+	height: 1072px;
+	width: 737px;
+	display: flex;
+	flex-direction: column-reverse;
+
+}
+
+
+.service-slide {
+	width: 290px;
+    margin-left: 37px;
+   	margin-top: 204px;
+   	height: 204px;
+
+}
+
+.service-slide img {
+	width: 290px;
+	height: 204px;
+}
+
+
+
+.service-slide .slick-dots li {
+	left: 0;
+}
+
+.slide-feed {
+	height: 575px;
+	width: 100%;
+	background: #999 url(./img/mobile-feed-bg.png) no-repeat center;
+}
+
+
+
+
+.about-salon-text {
+	width: 274px;
+	font-size: 16px;
+    text-align: justify;
+    margin-left: 41px;
+    margin-top: -194px;
+    height: 254px;
+}
+
+.main-line {
+	display: none;
+}
+
+
+.main-scroll {
+	display: none;
+}
+
+
+.section-services-bottom h3 {
+    font-size: 28px;
+  	top: 2123px;
+    left: 78px;
+}
+
+
+	
+.slide-feed .line {
+	left: 371px;
+	
+}
+
+.slide-feed h4 {
+	padding-top: 21px;
+}
+	
+
+p.stars {
+	left: 117px;
+    top: 231px;
+}
+
+.slick-next,.slick-prev {
+    top: 519px;
+}
+
+
+.slick-dots li {
+	top:-12px!important;
+	left: -11px;
+
+}
+
+.feedback-text {
+	width: 278px;
+	left: 15px;
+    top: 274px;
+    line-height:1.25;
+}
+
+.appointment-now {
+	width: 100%;
+	height: 300px;
+}
+
+.appointment-now h4 {
+	width: 173px;
+	font-size: 20px;
+	padding-top: 31px;
+	text-align: center;
+	margin-left: 71px;
+
+}
+
+.left-lines {
+	display: none;
+    
+}
+
+.right-lines{
+	display: none;
+}
+
+
+
+.appointment-now .buttons {
+   width: 291px;
+   margin-left: -18px;
+  }
+
+
+  .appointment-now .record-online {
+  	margin-bottom: 1px;
+  }
+
+
+  .appointment-now .buttons img {
+  	position: absolute;
+  	left: 70px;
+  }
+
+#map {
+	max-width: 320px;
+	width: 100%;
+	height: 477px;
+}
+
+.contacts-block-map {
+	width: 320px;
+    height: 387px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: 4268px;
+    display: flex;
+   flex-direction: column;
+
+}
+
+.contacts-block-map-list {
+	 margin-top: 54px;
+}
+
+.contacts-block-map h4 {
+	font-size: 24px;
+}
+
+.contacts-block-map .line {
+	left: 1009px;
+    top: 115px;
+}
+
+.contacts-block-map .phone {
+	left: -18px;
+}
+
+.place {
+	left: -26px;
+}
+
+.contacts-block-map p.adress {
+	left: -21px;
+}
+
+.time {
+	left: -51px;
+    top: 49px;
+}
+
+.insta {
+	left: -48px;
+    top: 72px;
+}
+
+.footer {
+	max-width: 320px;
+	width: 100%;
+	position: relative;
+	top: 1733px;
+}
+
+.footer p {
+	text-align: center;
+}
+
+
+
+
+
+}/* MEDIA_320px-finish */
