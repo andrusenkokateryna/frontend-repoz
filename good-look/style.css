@@ -689,6 +689,7 @@ p.stars {
 	position: absolute;
 	left: 1253px;
     top: 3205px;
+    box-shadow: 6px 6px 12px -3px rgba(201,195,201,1);
    
 
     
@@ -909,7 +910,7 @@ header .navbar ul {
 	width: 221px;
 }
 
-	.main-side-services h3 {
+.main-side-services h3 {
 	font-size: 32px;
 }
 
@@ -1008,7 +1009,10 @@ p.stars {
 .contacts-block-map {
 	left: 871px;
 }
-   
+  
+.contacts-block-map .line {
+	    left: 267px;
+}
 
 }/* MEDIA_1366px-finish */
 
@@ -2236,7 +2240,7 @@ p.stars {
 	max-width: 320px;
 	width: 100%;
 	position: relative;
-	top: 1733px;
+	top: 1683px;
 }
 
 .footer p {

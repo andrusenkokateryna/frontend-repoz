@@ -20,7 +20,7 @@ var btn=document.querySelector('#show'),
 	close= document.querySelector('#close');
 
 	btn.addEventListener('click', function(){
-		menuMob.style.transform='translateX()';
+		menuMob.style.display='block';
 	})
 
 	close.addEventListener('click', function(){
